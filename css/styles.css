@@ -1,0 +1,113 @@
+/*======================
+        GENERALES
+=====================*/
+:root {
+    --color-header: #dcdcdf; 
+    --color-fondo-titulo-causa: #f6f6f8; 
+    --color-boton-salir: #cc4f4f;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header, main, footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*======================
+        HEADER
+=====================*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-header);
+}
+
+
+/*======================
+        MAIN
+=====================*/
+main {
+    height: 400px;
+}
+
+.contenedor-causas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.causas {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.causas p {
+    padding-left: 5px;
+}
+
+.titulo-causa {
+    background-color: var(--color-fondo-titulo-causa);
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: inherit;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease; /* suaviza todos los cambios */
+}
+
+span {
+    font-weight: bold;
+}
+
+/*======================
+        FOOTER
+=====================*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* General botones y <a>*/
+
+button {
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #c5c9ce; /* un gris más oscuro */
+    transform: scale(1.05);   /* agranda un poco */
+}
+
+.boton-salir {
+    background-color: var(--color-boton-salir);
+    color: white;
+    border: 1px solid #a83f3f;
+}
+
+.boton-salir:hover {
+    background-color: #b13b3b; /* un rojo más oscuro */
+    border-color: #8f2f2f;     /* también oscurece el borde */
+    transform: scale(1.05);    /* mantiene el efecto de agrandarse */
+}
+
+.titulo-causa a:hover {
+    color: #0056b3;          /* cambia de color al pasar el mouse */
+    transform: scale(1.05);  /* agranda un poco el texto */
+}
