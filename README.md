@@ -1,6 +1,3 @@
-# pantalla-perfil-causas
-Pantalla del perfil de causas asociadas a un cliente para el proyecto de metodología de sistemas I
-
 # Pantalla de Causas Asociadas a un cliente
 Pantalla estética del perfil de causas asociadas a un cliente para el proyecto de metodología de sistemas I. Permite visualizar todas las causas asociadas a un cliente, mostrando detalles como:
   - Número de causa
@@ -9,7 +6,7 @@ Pantalla estética del perfil de causas asociadas a un cliente para el proyecto 
   - Descripción de la causa
   - También incluye un botón para volver atrás y otro para agregar nuevas causas (simulado en la interfaz).
 
-# Tecnologías utilizadas
+## Tecnologías utilizadas
 
 HTML5 y CSS3 para estructura y estilos.
 
